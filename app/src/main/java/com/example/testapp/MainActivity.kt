@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun _setTodosCount()
     {
-        binding.tvTodoCount.text = todoViewModel.getTodoCount().toString() + " todo/s"
+        binding.tvTodoCount.text = todoViewModel.getTodoCount().toString() + " todos"
     }
 
     private fun _addTodo()
